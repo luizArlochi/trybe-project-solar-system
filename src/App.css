@@ -1,3 +1,53 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: url('./images/background.png');
+  background-size:contain;
+  color: white;
+}
+
+.solarSystem {
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+
+.solarSystem__control {
+  display: flex;
+  max-width: 100%;
+}
+
+.missionCard {
+  padding: 5px 10px;
+  background-color: rgba(66, 63, 63, 0.568);
+  border-radius: 5%;
+  border: 5px solid rgba(24, 22, 22, 0.815) ;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  width: 20%;
+  margin: 30px 80px;
+}
+
+.mission__content {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.planetImg {
+  width: 100%;
+}
+
+.planetImg:hover {
+  transform: rotate(3600deg);
+  transition: transform 20s linear;
+}
+
+ h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 5rem;
+}
