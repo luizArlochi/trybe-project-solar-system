@@ -4,7 +4,7 @@
 
 body {
   background-image: url('./images/background.png');
-  background-size:contain;
+  background-size: cover;
   color: white;
 }
 
@@ -20,21 +20,21 @@ body {
 }
 
 .missionCard {
-  padding: 5px 10px;
   background-color: rgba(66, 63, 63, 0.568);
+  border: 5px solid rgba(24, 22, 22, 0.815);
   border-radius: 5%;
-  border: 5px solid rgba(24, 22, 22, 0.815) ;
   display: flex;
-  flex-direction:column;
-  flex-wrap: wrap;
-  width: 20%;
+  flex-flow: column;
+  flex-direction: column;
   margin: 30px 80px;
+  padding: 5px 10px;
+  width: 20%;
 }
 
 .mission__content {
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .planetImg {
@@ -46,8 +46,8 @@ body {
   transition: transform 20s linear;
 }
 
- h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
+h1 {
+  font-family: fantasy;
   font-size: 5rem;
+  text-align: center;
 }
